@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/fevicon.svg",
   "logo": {
     "light": "/logo/dark-logo.png",
     "dark": "/logo/light-logo.png"
@@ -15,17 +15,34 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "User Guides",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "user-guides/index",
+              "user-guides/usecases",
+              "user-guides/quickstart"
             ]
           }
         ]
+      },
+      {
+        "tab": "Integrations",
+        "pages": ["integrations/calendly", "integrations/slack"]
+      },
+      {
+        "tab": "Developer Guides",
+        "groups": [
+          {
+            "group": "API Doc",
+            "pages": ["developer-guides/temp"]
+          }
+        ]
+      },
+      {
+        "tab": "FAQ",
+        "pages": ["faqs/faqs"]
       }
     ]
   },
