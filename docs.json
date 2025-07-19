@@ -2,8 +2,11 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Botric Documentation",
+  "icons": {
+  "library": "lucide"
+},
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#2662D9",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -21,25 +24,35 @@
             "group": "Get Started",
             "pages": [
               "user-guides/index",
-              "user-guides/usecases",
-              "user-guides/quickstart"
+          
+              "user-guides/quick_start",
+              "user-guides/build_a_chat_agent"
+            ]
+          },
+          {
+            "group": "AI Agent",
+            "pages": [
+              "user-guides/Knowledge_sources",
+              "user-guides/analytics",
+              "user-guides/chatlogs"
             ]
           }
+          
         ]
       },
-      {
-        "tab": "Integrations",
-        "pages": ["integrations/calendly", "integrations/slack"]
-      },
-      {
-        "tab": "Developer Guides",
-        "groups": [
-          {
-            "group": "API Doc",
-            "pages": ["developer-guides/temp"]
-          }
-        ]
-      },
+      // {
+      //   "tab": "Integrations",
+      //   "pages": ["integrations/calendly", "integrations/slack"]
+      // },
+      // {
+      //   "tab": "Developer Guides",
+      //   "groups": [
+      //     {
+      //       "group": "API Doc",
+      //       "pages": ["developer-guides/temp"]
+      //     }
+      //   ]
+      // },
       {
         "tab": "FAQ",
         "pages": ["faqs/faqs"]
@@ -55,7 +68,8 @@
   },
   "footer": {
     "socials": {
-      "linkedin": "https://www.linkedin.com/company/botric-ai"
+      "linkedin": "https://www.linkedin.com/company/botric-ai",
+      "twitter": "https://x.com/BotricAI"
     }
   }
 }
