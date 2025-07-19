@@ -40,19 +40,7 @@
           
         ]
       },
-      // {
-      //   "tab": "Integrations",
-      //   "pages": ["integrations/calendly", "integrations/slack"]
-      // },
-      // {
-      //   "tab": "Developer Guides",
-      //   "groups": [
-      //     {
-      //       "group": "API Doc",
-      //       "pages": ["developer-guides/temp"]
-      //     }
-      //   ]
-      // },
+      
       {
         "tab": "FAQ",
         "pages": ["faqs/faqs"]
