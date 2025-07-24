@@ -51,7 +51,7 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://botric.ai/"
+      "href": "https://app.botric.ai/dashboard"
     }
   },
   "footer": {
