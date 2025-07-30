@@ -35,18 +35,17 @@
               "user-guides/analytics",
               "user-guides/chatlogs"
             ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/overview",
+              "integrations/ticket_management",
+              "integrations/cal",
+              "integrations/lead_generation",
+              "integrations/web_agent"
+            ]
           }
-        ]
-      },
-      {
-        "tab": "Integrations",
-        "pages": [
-          "integrations/overview",
-          "integrations/ticket_management",
-          "integrations/cal",
-          "integrations/lead_generation",
-          "integrations/web_agent"
-          
         ]
       },
       {
