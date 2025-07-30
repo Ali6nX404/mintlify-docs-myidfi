@@ -3,8 +3,8 @@
   "theme": "mint",
   "name": "Botric Documentation",
   "icons": {
-  "library": "lucide"
-},
+    "library": "lucide"
+  },
   "colors": {
     "primary": "#2662D9",
     "light": "#2662D9",
@@ -24,7 +24,6 @@
             "group": "Get Started",
             "pages": [
               "user-guides/index",
-          
               "user-guides/quick_start",
               "user-guides/build_a_chat_agent"
             ]
@@ -37,13 +36,24 @@
               "user-guides/chatlogs"
             ]
           }
+        ]
+      },
+      {
+        "tab": "Integrations",
+        "pages": [
+          "integrations/overview",
+          "integrations/ticket_management",
+          "integrations/cal",
+          "integrations/lead_generation",
+          "integrations/web_agent"
           
         ]
       },
-      
       {
         "tab": "FAQ",
-        "pages": ["faqs/faqs"]
+        "pages": [
+          "faqs/faqs"
+        ]
       }
     ]
   },
