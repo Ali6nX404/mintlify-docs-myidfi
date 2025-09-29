@@ -1,19 +1,19 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Botric Documentation",
+  "name": "myIDFI AI Documentation",
   "icons": {
     "library": "lucide"
   },
   "colors": {
-    "primary": "#2662D9",
-    "light": "#2662D9",
-    "dark": "#2662D9"
+    "primary": "#20B2BF",
+    "light": "#20B2BF",
+    "dark": "#20B2BF"
   },
   "favicon": "/fevicon.svg",
   "logo": {
-    "light": "/logo/dark-logo.png",
-    "dark": "/logo/light-logo.png"
+    "light": "/logo/logo.png",
+    "dark": "/logo/logo.png"
   },
   "navigation": {
     "tabs": [
@@ -65,8 +65,8 @@
   },
   "footer": {
     "socials": {
-      "linkedin": "https://www.linkedin.com/company/botric-ai",
-      "twitter": "https://x.com/BotricAI"
+      "linkedin": "https://www.linkedin.com/company/myidfi",
+      "twitter": "https://x.com/myidfi"
     }
   }
 }
